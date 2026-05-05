@@ -1,0 +1,1 @@
+print("HGola, bienvenido a la práctica de Python")
