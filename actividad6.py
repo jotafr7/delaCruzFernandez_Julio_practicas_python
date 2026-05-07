@@ -5,5 +5,6 @@ if numero > 0:
 
 elif numero == 0:
     print("El número introducido es cero")
+    
 else:
     print("El número introducido es negativo")
