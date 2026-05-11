@@ -1,8 +1,11 @@
-user = input("Ingrese su nombre de usuario:")
-password = input("Ingrese su contraseña de usuario:")
+user_name = input("Introduce tu nombre de usuario:")
+name_password = input("Introduce tu contraseña:")
 
-if user == "SMR" and password == "SMR1":
-    print("Acceso permitido, continue")
+name = "Zamara"
+password = "25"
 
-else:
-    print("Acceso denegado, vueva a intentarlo")
+while user_name != name and name_password != password:
+    user_name = input("Introduzca su nombre de nuevo:")
+    name_password = input("INtroduzca su contraseña de nuevo:")
+
+print("Credenciales admitidas, puede continuar hacia delante.")
