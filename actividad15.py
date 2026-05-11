@@ -1,7 +1,7 @@
 user = input("Introduce tu nombre de usuario:")
 password = input("Introduce tu contraseña:")
 
-if user == "Zamara" and password =="150808":
+if user == "zamara" and password =="150808":
     print("Acceso permitido, continue")
 
 else:
